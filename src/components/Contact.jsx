@@ -92,7 +92,7 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             ></textarea>
-            <button className="btn btn-lg">Send message</button>
+            <button className="btn btn-lg">Enviar Mensagem</button>
           </motion.form>
         </div>
       </div>
