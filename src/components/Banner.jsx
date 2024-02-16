@@ -80,7 +80,7 @@ const Banner = () => {
                 rel="noreferrer"
                 className="text-gradient btn-link"
               >
-                Meu Portfolio
+                Meu CV
               </a>
             </motion.div>
             <motion.div
