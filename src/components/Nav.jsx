@@ -4,8 +4,6 @@ import { BiHomeAlt, BiUser } from "react-icons/bi";
 import {
   BsClipboardData,
   BsBriefcase,
-  // BsChatSquare,
-  // BsSquare,
   BsChatSquareText,
 } from "react-icons/bs";
 
