@@ -2,7 +2,7 @@
 
 > Status: In Progress 🔨
 
-## This is a portfolio for my friend Henrique Vinhola.
+## This is a portfolio for me.
 
 ## Technologies Used:
 
