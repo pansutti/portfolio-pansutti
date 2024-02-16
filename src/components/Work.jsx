@@ -23,7 +23,7 @@ const Work = () => {
                 <br />
                 Projetos.
               </h2>
-              <p className="max-w-sm mb-28">
+              <p className="max-w-sm text-2xl mb-20">
                 Aqui estão alguns dos projetos pessoais que realizei, afim de
                 melhorar meus conhecimentos com programação.
               </p>
