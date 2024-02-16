@@ -76,7 +76,7 @@ const About = () => {
                 rel="noreferrer"
                 className="text-gradient btn-link"
               >
-                Meu Portfolio
+                Meu CV
               </a>
             </div>
           </motion.div>
