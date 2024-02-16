@@ -9,12 +9,10 @@
 <table>
   <tr>
     <td>React</td>
-    <td>i18n</td>
     <td>Tailwind</td>
   </tr>
   <tr>
     <td>18.0</td>
-    <td>23.7.8</td>
     <td>3.0</td>
   </tr>
 </table>
