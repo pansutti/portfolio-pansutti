@@ -98,7 +98,13 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             ></textarea>
-            <button onClick={sendEmail} disabled={isDisabled} className="btn btn-lg">Enviar Mensagem</button>
+            <button
+              onClick={sendEmail}
+              disabled={isDisabled}
+              className="btn btn-lg"
+            >
+              Enviar Mensagem
+            </button>
           </motion.form>
         </div>
       </div>
