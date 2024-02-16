@@ -5,22 +5,28 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "Development",
+    name: "Análise e Desenvolvimento de Sistemas (2021 - 2023)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure a repudiandae explicabo alias debitis magni vero at eum! Fuga ex impedit obcaecati animi distinctio, similique itaque est porro cumque mollitia?",
-    link: "Veja mais",
+      "Universidade Paulista.",
+    // link: "Veja mais",
   },
   {
-    name: "Development",
+    name: "Freelancer (ago 2023 - atualmente)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure a repudiandae explicabo alias debitis magni vero at eum! Fuga ex impedit obcaecati animi distinctio, similique itaque est porro cumque mollitia?",
-    link: "Veja mais",
+      "Trabalho em sistemas Dashboards e landing pages, com uso de React, Typescript, HTML, VueJS, Tailwind, Material UI entre outros framworks e Libraries.",
+    // link: "Veja mais",
   },
   {
-    name: "Development",
+    name: "Full Stack Developer - Witec ㅤㅤㅤㅤㅤ (abr 2023 - jul 2023)",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure a repudiandae explicabo alias debitis magni vero at eum! Fuga ex impedit obcaecati animi distinctio, similique itaque est porro cumque mollitia?",
-    link: "Veja mais",
+    "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
+    // link: "Veja mais",
+  },
+  {
+    name: "Full Stack Developer - Trentim ㅤㅤㅤ (jul 2022 - jul 2023)",
+    description:
+    "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
+    // link: "Veja mais",
   },
 ];
 
@@ -40,7 +46,7 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               Minhas experiências e certificações.
             </h3>
-            <button className="btn btn-sm">Meu Portfólio</button>
+            {/* <button className="btn btn-sm">Meu Portfólio</button> */}
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
@@ -65,7 +71,7 @@ const Services = () => {
                         {description}
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 items-end">
+                    {/* <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
@@ -75,7 +81,7 @@ const Services = () => {
                       <a href="#" className="text-gradient text-sm">
                         {link}
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 );
               })}

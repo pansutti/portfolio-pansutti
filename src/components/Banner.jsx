@@ -54,7 +54,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Atualmente atuando como Freelancer. Estou disponível para receber
+              Atuando como Freelancer. Estou disponível para receber
               novas propostas e aplicar meu conhecimento como Frontend
               Developer.
             </motion.p>
