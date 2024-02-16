@@ -23,17 +23,11 @@ const Work = () => {
                 <br />
                 Projetos.
               </h2>
-              <p className="max-w-sm mb-16">
+              <p className="max-w-sm mb-28">
                 Aqui estão alguns dos projetos pessoais que realizei, afim de
                 melhorar meus conhecimentos com programação.
               </p>
-              <a
-                href="https://github.com/pansutti?tab=repositories"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="btn btn-sm">Todos meus Projetos Pessoais</button>
-              </a>
+
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
