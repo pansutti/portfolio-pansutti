@@ -8,6 +8,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isDisabled, setIsDisabled] = useState(false);
 
   function sendEmail(e) {
     e.preventDefault();
@@ -16,6 +17,11 @@ const Contact = () => {
       alert("Preencha todos os campos");
       return;
     }
+
+    setIsDisabled(true);
+    setTimeout(() => {
+      setIsDisabled(false);
+    }, 7000);
 
     const templateParams = {
       from_name: name,
@@ -92,7 +98,7 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
               value={message}
             ></textarea>
-            <button className="btn btn-lg">Enviar Mensagem</button>
+            <button onClick={sendEmail} disabled={isDisabled} className="btn btn-lg">Enviar Mensagem</button>
           </motion.form>
         </div>
       </div>
