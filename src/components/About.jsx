@@ -38,7 +38,7 @@ const About = () => {
               primeiro trabalho em 2022 na Trentim, produzindo e adquirindo
               vasta experiência na área de programação. Me formei em Análise e
               Desenvolvimento de Sistemas em 2023 onde atualmente estou como
-              Freelancer Developer.
+              FrontEnd Developer na Cyrela.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>

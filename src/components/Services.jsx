@@ -6,12 +6,17 @@ import { fadeIn } from "../variants";
 const services = [
   {
     name: "Análise e Desenvolvimento de Sistemas (2021 - 2023)",
-    description:
-      "Universidade Paulista.",
+    description: "Universidade Paulista.",
     // link: "Veja mais",
   },
   {
-    name: "Freelancer (ago 2023 - atualmente)",
+    name: "Frontend Developer - Cyrelaㅤㅤㅤㅤ (mar 2024 - Atualmente)",
+    description:
+      "Trabalho em projetos com uso de ReactJS, ReacNative, Typescript, MUI, API REST e outras ferramentas.",
+    // link: "Veja mais",
+  },
+  {
+    name: "Freelancer (ago 2023 - fev 2024)",
     description:
       "Trabalho em sistemas Dashboards e landing pages, com uso de React, Typescript, HTML, VueJS, Tailwind, Material UI entre outros framworks e Libraries.",
     // link: "Veja mais",
@@ -19,13 +24,13 @@ const services = [
   {
     name: "Full Stack Developer - Witec ㅤㅤㅤㅤㅤ (abr 2023 - jul 2023)",
     description:
-    "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
+      "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
     // link: "Veja mais",
   },
   {
     name: "Full Stack Developer - Trentim ㅤㅤㅤ (jul 2022 - jul 2023)",
     description:
-    "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
+      "Experiência em React, Typescript, AzureDevOps, Power Automate, Sharepoint e outras ferramentas Microsoft.",
     // link: "Veja mais",
   },
 ];
