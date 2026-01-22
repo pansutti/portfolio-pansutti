@@ -3,6 +3,7 @@ import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import CvButton from "./CvButton";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -33,17 +34,16 @@ const About = () => {
               Sempre estudando.
             </h3>
             <p className="mb-6">
-              Comecei a atuar profissionalmente com Software Developer em 2021,
-              realizando Freelances para ONG's e Projetos avulsos. Adquiri meu
-              primeiro trabalho em 2022 na Trentim, produzindo e adquirindo
-              vasta experiência na área de programação. Me formei em Análise e
-              Desenvolvimento de Sistemas em 2023 onde atualmente estou como
-              FrontEnd Developer na Cyrela.
+            Minha trajetória no desenvolvimento de software começou em 2021, quando iniciei projetos freelance para ONGs e outros projetos independentes, o que me permitiu aplicar e expandir meus conhecimentos na prática.
+
+Em 2022, conquistei minha primeira oportunidade de trabalho na Trentim, onde ganhei uma vasta experiência na área de programação e aperfeiçoei minhas habilidades técnicas. Em 2023, finalizei minha formação em Análise e Desenvolvimento de Sistemas e, atualmente, atuo como Front-End Developer na Cyrela, onde continuo a desenvolver e aprimorar minha expertise em tecnologias de ponta.
+
+Estou sempre em busca de novos desafios que me permitam evoluir como profissional e contribuir para soluções inovadoras no desenvolvimento de software.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={2} duration={5} /> : null}+
+                  {inView ? <CountUp start={0} end={3} duration={5} /> : null}+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Anos de <br />
@@ -70,14 +70,7 @@ const About = () => {
                   Meu Contato
                 </button>
               </a>
-              <a
-                href="https://drive.google.com/file/d/18ITsXry0dtOeEveHqehOYJkrZZQV06jI/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="text-gradient btn-link"
-              >
-                Meu CV
-              </a>
+              <CvButton />
             </div>
           </motion.div>
         </div>

@@ -5,6 +5,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
+import CvButton from "./CvButton";
 
 const Banner = () => {
   return (
@@ -31,14 +32,34 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-white mr-4">I'm a</span>
               <TypeAnimation
                 sequence={[
                   "Developer",
                   2000,
                   "Freelancer",
                   2000,
-                  "Designer",
+                  "Programmer",
+                  2000,
+                  "Software Engineer",
+                  2000,
+                  "Full Stack Developer",
+                  2000,
+                  "Frontend Developer",
+                  2000,
+                  "Proactive",
+                  2000,
+                  "Team Player",
+                  2000,
+                  "Problem Solver",
+                  2000,
+                  "Quick Learner",
+                  2000,
+                  "Adaptable",
+                  2000,
+                  "Detail-Oriented",
+                  2000,
+                  "Organized",
                   2000,
                 ]}
                 speed={50}
@@ -54,9 +75,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Atuando como Freelancer. Estou disponível para receber
-              novas propostas e aplicar meu conhecimento como Frontend
-              Developer.
+              Atuando como Frontend Developer. Estou disponível para receber
+              novas propostas e aplicar meu conhecimento.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -74,14 +94,7 @@ const Banner = () => {
                   Meu Contato
                 </button>
               </a>
-              <a
-                href="https://drive.google.com/file/d/18ITsXry0dtOeEveHqehOYJkrZZQV06jI/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-                className="text-gradient btn-link"
-              >
-                Meu CV
-              </a>
+              <CvButton />
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}
