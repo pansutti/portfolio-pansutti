@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import {
   BsClipboardData,
-  BsBriefcase,
   BsChatSquareText,
 } from "react-icons/bs";
 
